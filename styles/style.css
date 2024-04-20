@@ -1,6 +1,7 @@
 body {
   padding: 0;
   text-align: center;
+  overflow: hidden;
 }
 
 #game-intro {
@@ -11,7 +12,7 @@ body {
   display: flex;
   width: 100vw;
   padding: 20px 0px;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 #game-screen {
@@ -20,9 +21,10 @@ body {
   padding: 20px 0px;
   overflow: hidden;
   position: relative;
-  background-image: url(../images/road.png);
+  background-image: url(/images/road.png);
   background-size: cover;
   animation: slide 5s linear infinite;
+  height: 600px;
 }
 
 @keyframes slide {
